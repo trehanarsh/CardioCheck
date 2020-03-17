@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="androidx.constraintlayout.widget.ConstraintLayout" type="androidx.constraintlayout.widget.ConstraintLayoutType"/>
+  <xs:complexType name="ButtonType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute ref="and:id" xmlns:and="http://schemas.android.com/apk/res/android"/>
+        <xs:attribute ref="and:layout_width" xmlns:and="http://schemas.android.com/apk/res/android"/>
+        <xs:attribute ref="and:layout_height" xmlns:and="http://schemas.android.com/apk/res/android"/>
+        <xs:attribute ref="and:layout_marginStart" xmlns:and="http://schemas.android.com/apk/res/android"/>
+        <xs:attribute ref="and:layout_marginLeft" xmlns:and="http://schemas.android.com/apk/res/android"/>
+        <xs:attribute ref="and:layout_marginTop" xmlns:and="http://schemas.android.com/apk/res/android"/>
+        <xs:attribute ref="and:onClick" xmlns:and="http://schemas.android.com/apk/res/android"/>
+        <xs:attribute ref="and:text" xmlns:and="http://schemas.android.com/apk/res/android"/>
+        <xs:attribute ref="res:layout_constraintStart_toStartOf" xmlns:res="http://schemas.android.com/apk/res-auto"/>
+        <xs:attribute ref="res:layout_constraintTop_toTopOf" xmlns:res="http://schemas.android.com/apk/res-auto"/>
+        <xs:attribute ref="res:layout_constraintEnd_toEndOf" xmlns:res="http://schemas.android.com/apk/res-auto"/>
+        <xs:attribute ref="res:layout_constraintHorizontal_bias" xmlns:res="http://schemas.android.com/apk/res-auto"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="TextViewType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute ref="and:id" xmlns:and="http://schemas.android.com/apk/res/android"/>
+        <xs:attribute ref="and:layout_width" xmlns:and="http://schemas.android.com/apk/res/android"/>
+        <xs:attribute ref="and:layout_height" xmlns:and="http://schemas.android.com/apk/res/android"/>
+        <xs:attribute ref="and:layout_marginStart" xmlns:and="http://schemas.android.com/apk/res/android"/>
+        <xs:attribute ref="and:layout_marginLeft" xmlns:and="http://schemas.android.com/apk/res/android"/>
+        <xs:attribute ref="and:layout_marginTop" xmlns:and="http://schemas.android.com/apk/res/android"/>
+        <xs:attribute ref="and:text" xmlns:and="http://schemas.android.com/apk/res/android"/>
+        <xs:attribute ref="res:layout_constraintStart_toStartOf" xmlns:res="http://schemas.android.com/apk/res-auto"/>
+        <xs:attribute ref="res:layout_constraintTop_toTopOf" xmlns:res="http://schemas.android.com/apk/res-auto"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="com.google.android.material.textfield.TextInputEditTextType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute ref="and:id" xmlns:and="http://schemas.android.com/apk/res/android"/>
+        <xs:attribute ref="and:layout_width" xmlns:and="http://schemas.android.com/apk/res/android"/>
+        <xs:attribute ref="and:layout_height" xmlns:and="http://schemas.android.com/apk/res/android"/>
+        <xs:attribute ref="and:layout_marginStart" xmlns:and="http://schemas.android.com/apk/res/android"/>
+        <xs:attribute ref="and:layout_marginLeft" xmlns:and="http://schemas.android.com/apk/res/android"/>
+        <xs:attribute ref="and:layout_marginTop" xmlns:and="http://schemas.android.com/apk/res/android"/>
+        <xs:attribute ref="and:hint" xmlns:and="http://schemas.android.com/apk/res/android"/>
+        <xs:attribute ref="res:layout_constraintStart_toStartOf" xmlns:res="http://schemas.android.com/apk/res-auto"/>
+        <xs:attribute ref="res:layout_constraintTop_toTopOf" xmlns:res="http://schemas.android.com/apk/res-auto"/>
+        <xs:attribute ref="and:layout_weight" xmlns:and="http://schemas.android.com/apk/res/android"/>
+        <xs:attribute ref="and:text" xmlns:and="http://schemas.android.com/apk/res/android"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="com.google.android.material.textfield.TextInputLayoutType">
+    <xs:sequence>
+      <xs:element type="com.google.android.material.textfield.TextInputEditTextType" name="com.google.android.material.textfield.TextInputEditText"/>
+    </xs:sequence>
+    <xs:attribute ref="and:layout_width" xmlns:and="http://schemas.android.com/apk/res/android"/>
+    <xs:attribute ref="and:layout_height" xmlns:and="http://schemas.android.com/apk/res/android"/>
+    <xs:attribute ref="and:layout_marginTop" xmlns:and="http://schemas.android.com/apk/res/android"/>
+    <xs:attribute ref="res:layout_constraintEnd_toEndOf" xmlns:res="http://schemas.android.com/apk/res-auto"/>
+    <xs:attribute ref="res:layout_constraintHorizontal_bias" xmlns:res="http://schemas.android.com/apk/res-auto"/>
+    <xs:attribute ref="res:layout_constraintStart_toStartOf" xmlns:res="http://schemas.android.com/apk/res-auto"/>
+    <xs:attribute ref="res:layout_constraintTop_toTopOf" xmlns:res="http://schemas.android.com/apk/res-auto"/>
+  </xs:complexType>
+  <xs:complexType name="RadioButtonType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute ref="and:id" xmlns:and="http://schemas.android.com/apk/res/android"/>
+        <xs:attribute ref="and:layout_width" xmlns:and="http://schemas.android.com/apk/res/android"/>
+        <xs:attribute ref="and:layout_height" xmlns:and="http://schemas.android.com/apk/res/android"/>
+        <xs:attribute ref="and:layout_marginStart" xmlns:and="http://schemas.android.com/apk/res/android"/>
+        <xs:attribute ref="and:layout_marginLeft" xmlns:and="http://schemas.android.com/apk/res/android"/>
+        <xs:attribute ref="and:layout_marginTop" xmlns:and="http://schemas.android.com/apk/res/android"/>
+        <xs:attribute ref="and:text" xmlns:and="http://schemas.android.com/apk/res/android"/>
+        <xs:attribute ref="res:layout_constraintStart_toStartOf" xmlns:res="http://schemas.android.com/apk/res-auto"/>
+        <xs:attribute ref="res:layout_constraintTop_toTopOf" xmlns:res="http://schemas.android.com/apk/res-auto"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="RadioGroupType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute ref="and:layout_width" xmlns:and="http://schemas.android.com/apk/res/android"/>
+        <xs:attribute ref="and:layout_height" xmlns:and="http://schemas.android.com/apk/res/android"/>
+        <xs:attribute ref="and:layout_marginTop" xmlns:and="http://schemas.android.com/apk/res/android"/>
+        <xs:attribute ref="res:layout_constraintTop_toTopOf" xmlns:res="http://schemas.android.com/apk/res-auto"/>
+        <xs:attribute ref="tool:layout_editor_absoluteX" xmlns:tool="http://schemas.android.com/tools"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="androidx.constraintlayout.widget.ConstraintLayoutType">
+    <xs:choice maxOccurs="unbounded" minOccurs="0">
+      <xs:element type="ButtonType" name="Button" maxOccurs="unbounded" minOccurs="0"/>
+      <xs:element type="TextViewType" name="TextView"/>
+      <xs:element type="com.google.android.material.textfield.TextInputEditTextType" name="com.google.android.material.textfield.TextInputEditText" maxOccurs="unbounded" minOccurs="0"/>
+      <xs:element type="com.google.android.material.textfield.TextInputLayoutType" name="com.google.android.material.textfield.TextInputLayout" maxOccurs="unbounded" minOccurs="0"/>
+      <xs:element type="RadioButtonType" name="RadioButton" maxOccurs="unbounded" minOccurs="0"/>
+      <xs:element type="RadioGroupType" name="RadioGroup"/>
+    </xs:choice>
+    <xs:attribute ref="and:id" xmlns:and="http://schemas.android.com/apk/res/android"/>
+    <xs:attribute ref="and:layout_width" xmlns:and="http://schemas.android.com/apk/res/android"/>
+    <xs:attribute ref="and:layout_height" xmlns:and="http://schemas.android.com/apk/res/android"/>
+    <xs:attribute ref="tool:context" xmlns:tool="http://schemas.android.com/tools"/>
+  </xs:complexType>
+</xs:schema>

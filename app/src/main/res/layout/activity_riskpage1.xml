@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".riskpage1">
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="39dp"
+        android:layout_marginLeft="39dp"
+        android:layout_marginTop="38dp"
+        android:text="Any history of:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_width="205dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="75dp"
+        android:text="Heart attack"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:onClick="onCheckboxClicked"/>
+
+    <CheckBox
+        android:onClick="onCheckboxClicked"
+        android:id="@+id/checkBox3"
+        android:layout_width="205dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="104dp"
+        android:text="Angioplasty"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:onClick="onCheckboxClicked"
+        android:id="@+id/checkBox4"
+        android:layout_width="205dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="132dp"
+        android:text="CABG (Bypass surgery)"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:onClick="onCheckboxClicked"
+        android:id="@+id/checkBox5"
+        android:layout_width="205dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="160dp"
+        android:text="Aortic aneurysm"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:onClick="onCheckboxClicked"
+        android:id="@+id/checkBox6"
+        android:layout_width="205dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="188dp"
+        android:text="Blockage of limb arteries"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:onClick="onCheckboxClicked"
+        android:id="@+id/checkBox7"
+        android:layout_width="299dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="216dp"
+        android:text="Diabetes with protein in urine"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:onClick="onCheckboxClicked"
+        android:id="@+id/checkBox8"
+        android:layout_width="205dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="244dp"
+        android:text="Diabetes with high lipids"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:onClick="onCheckboxClicked"
+        android:id="@+id/checkBox9"
+        android:layout_width="297dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="272dp"
+        android:text="Diabetes with smoking habits"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:onClick="onCheckboxClicked"
+        android:id="@+id/checkBox2"
+        android:layout_width="205dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="300dp"
+        android:text="Severe renal failure"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:onClick="onCheckboxClicked"
+        android:id="@+id/checkBox10"
+        android:layout_width="205dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="328dp"
+        android:text="Brain stroke"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="228dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="61dp"
+        android:layout_marginLeft="61dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginEnd="122dp"
+        android:layout_marginRight="122dp"
+        android:text="Next"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:onClick="nextfrompage1"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

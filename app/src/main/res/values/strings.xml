@@ -1,0 +1,14 @@
+<resources>
+    <string name="Input1">Weight(Kg)</string>
+    <string name="Input2">Height(cm)</string>
+    <string name="Input3">Blood Pressure</string>
+    <string name="Input4">Sugar Level</string>
+    <string name="app_name">CardioCheck</string>
+    <string name="Button1">Calculate Your Heart Risk Score</string>
+    <string name="Button2">Calculate BMI</string>
+    <string name="bmistr">Your BMI: </string>
+    <string name="t1">Calculate your BMI: </string>
+    <string name="essayquit">We all know the health risks of smoking, but that doesn’t make it any easier to kick the habit. Whether you’re an occasional teen smoker or a lifetime pack-a-day smoker, quitting can be really tough.\nSmoking tobacco is both a physical addiction and a psychological habit. The nicotine from cigarettes provides a temporary—and addictive—high. Eliminating that regular fix of nicotine causes your body to experience physical withdrawal symptoms and cravings. Because of nicotine’s “feel good” effect on the brain, you may turn to cigarettes as a quick and reliable way to boost your outlook, relieve stress, and unwind. Smoking can also be a way of coping with depression, anxiety, or even boredom. Quitting means finding different, healthier ways to cope with those feelings.\nSmoking is also ingrained as a daily ritual. It may be an automatic response for you to smoke a cigarette with your morning coffee, while taking a break at work or school, or on your commute home at the end of a hectic day. Or maybe your friends, family, or colleagues smoke, and it’s become part of the way you relate with them.\nTo successfully stop smoking, you’ll need to address both the addiction and the habits and routines that go along with it. But it can be done. With the right support and quit plan, any smoker can kick the addiction—even if you’ve tried and failed multiple times before. </string>
+    <string name="treatlifestyle"><![CDATA[Change your lifestyle:\n Follow healthy diet patterns\n Salt restriction < 1500 mg/day\n Exercise : aerobic (90-150 mins/week)\nQuit tobacco and alcohol\n \n Treat if:\n BP ≥ 140/90mm Hg\n LDL > 100 mg/dL\n Triglyceride>150mg/dL\n HbA1c > 7%\n]]></string>
+    <string name="prediab"><![CDATA[Check for pre-diabetes if :\n  Your BMI ≥ 23kg/m2 \n      OR\n  You have one of the following – \n   family history of diabetes,\n  HDL < 35 mg/dL,\n  physical inactivity,\n  polycystic ovarian syndrome\n\nCheck HbA1c 2hr after taking 75gm of glucose:\n Prediabetes if HbA1c > 6.4%\n]]></string>
+</resources>
